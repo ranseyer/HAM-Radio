@@ -1,0 +1,11 @@
+1. Ein P-Kanal MOSFET braucht zum sperren am Gate immer die Eingangsspannung, ich habe die Leiterbahn zwischen Gate und Arduino D2 getrennt und das Gate dann mit Pin 18 (SPARE) vom ULN2803 verbunden und zusätzlich einen 10KOhm Widerstand auf 12 Volt  (UREG) gelötet, den Sketch umprogrammiert, damit funktioniert der Ausgang für den LNA
+sonst bräuchte man einen Transistor mit Basisvorwiderstand
+
+2. Der Masseanschluss passt nicht zu meinen Cinchbuchsen, er liegt nicht unten, sondern zeigt nach hinten, ich konnte aber improvisieren, ich habe den Anschluss gekürzt und an die 100pF-Kondensatoren angelötet
+
+3. Ich habe gelesen, dass man einen 100nF-Kondensator so nah wie möglich am IC einlöten sollte, um Störungen zu unterdrücken, den habe ich am Arduino unten an der Leiterplatte angelötet
+
+4. Ich habe die falschen SMD Sicherungen bestellt, meine sind zu groß, habe die Sicherung senkrecht angelötet und eine Drahtbrücke angelötet
+
+5. R1 für die LED LNA ist größer als R3 bis R6, da er nach 12V geht und die andern auf 5V
+ R2 entfällt, da dieser Ausgang ja für das Gate des FETs gebraucht wird (man muss nur daran denken)
