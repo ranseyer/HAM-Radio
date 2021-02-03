@@ -24910,6 +24910,18 @@ Source: http://eshop.phoenixcontact.com .. 1751303.pdf</description>
 <wire x1="5.25" y1="0" x2="5.25" y2="-5.25" width="1.27" layer="1"/>
 <wire x1="8.75" y1="0" x2="8.75" y2="-5.25" width="1.27" layer="1"/>
 <wire x1="12.25" y1="0" x2="12.25" y2="-5.25" width="1.27" layer="1"/>
+<wire x1="-12.446" y1="0" x2="-12.192" y2="0" width="1.27" layer="41"/>
+<wire x1="-12.192" y1="0" x2="-12.192" y2="-5.334" width="1.27" layer="41"/>
+<wire x1="-8.89" y1="0" x2="-8.636" y2="0" width="1.27" layer="41"/>
+<wire x1="-8.636" y1="0" x2="-8.636" y2="-5.334" width="1.27" layer="41"/>
+<wire x1="-5.334" y1="0" x2="-5.08" y2="0" width="1.27" layer="41"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-5.08" width="1.27" layer="41"/>
+<wire x1="-1.778" y1="0" x2="-1.778" y2="-5.08" width="1.27" layer="41"/>
+<wire x1="1.778" y1="0" x2="1.778" y2="-5.08" width="1.27" layer="41"/>
+<wire x1="5.334" y1="0" x2="5.334" y2="-5.08" width="1.27" layer="41"/>
+<wire x1="8.636" y1="0" x2="8.636" y2="-5.08" width="1.27" layer="41"/>
+<wire x1="8.636" y1="-5.08" x2="8.89" y2="-5.08" width="1.27" layer="41"/>
+<wire x1="12.192" y1="0" x2="12.192" y2="-5.08" width="1.27" layer="41"/>
 </package>
 <package name="1751303-3">
 <description>&lt;b&gt;MKDS 1/ 8-3,5&lt;/b&gt; Printklemme&lt;p&gt;
@@ -24981,6 +24993,9 @@ Source: http://eshop.phoenixcontact.com .. 1751303.pdf</description>
 <wire x1="-3.36" y1="2.54" x2="-3.36" y2="-2.71" width="1.27" layer="1"/>
 <wire x1="0.14" y1="2.54" x2="0.14" y2="-2.71" width="1.27" layer="1"/>
 <wire x1="3.64" y1="2.54" x2="3.64" y2="-2.71" width="1.27" layer="1"/>
+<wire x1="-3.302" y1="2.54" x2="-3.302" y2="-2.54" width="1.27" layer="41"/>
+<wire x1="0.254" y1="2.54" x2="0.254" y2="-2.54" width="1.27" layer="41"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="1.27" layer="41"/>
 </package>
 </packages>
 <symbols>
@@ -26018,6 +26033,10 @@ Relais:
 <junction x="134.62" y="134.62"/>
 <pinref part="X1" gate="-5" pin="K"/>
 </segment>
+<segment>
+<wire x1="-58.42" y1="21.59" x2="-52.07" y2="21.59" width="0.1524" layer="91"/>
+<label x="-52.07" y="21.59" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="D9" class="2">
 <segment>
@@ -26033,6 +26052,10 @@ Relais:
 <wire x1="134.62" y1="129.54" x2="125.73" y2="129.54" width="0.1524" layer="91"/>
 <junction x="134.62" y="129.54"/>
 <pinref part="X1" gate="-7" pin="K"/>
+</segment>
+<segment>
+<wire x1="-68.58" y1="19.05" x2="-52.07" y2="19.05" width="0.1524" layer="91"/>
+<label x="-52.07" y="19.05" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="A2" class="2">
@@ -26080,15 +26103,9 @@ Relais:
 </net>
 <net name="VIN" class="1">
 <segment>
-<wire x1="-78.74" y1="16.51" x2="-72.39" y2="16.51" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="16.51" x2="-68.58" y2="16.51" width="0.1524" layer="91"/>
 <label x="-78.74" y="16.51" size="1.778" layer="95"/>
 <pinref part="X4" gate="-1" pin="K"/>
-<pinref part="X4" gate="-3" pin="K"/>
-<wire x1="-72.39" y1="16.51" x2="-68.58" y2="16.51" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="21.59" x2="-72.39" y2="21.59" width="0.1524" layer="91"/>
-<wire x1="-72.39" y1="21.59" x2="-78.74" y2="21.59" width="0.1524" layer="91"/>
-<wire x1="-72.39" y1="21.59" x2="-72.39" y2="16.51" width="0.1524" layer="91"/>
-<junction x="-72.39" y="21.59"/>
 </segment>
 <segment>
 <label x="-87.63" y="58.42" size="1.778" layer="95"/>
@@ -26104,6 +26121,11 @@ Relais:
 <wire x1="-78.74" y1="58.42" x2="-78.74" y2="57.15" width="0.1524" layer="91"/>
 <junction x="-78.74" y="58.42"/>
 <label x="-86.36" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X4" gate="-3" pin="K"/>
+<wire x1="-68.58" y1="21.59" x2="-78.74" y2="21.59" width="0.1524" layer="91"/>
+<label x="-78.74" y="21.59" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX0" class="2">
