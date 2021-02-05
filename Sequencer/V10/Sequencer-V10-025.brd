@@ -3230,6 +3230,9 @@ Source: Data sheet </description>
 <wire x1="15.266" y1="27.381" x2="15.266" y2="25.711" width="0.762" layer="1"/>
 <wire x1="15.266" y1="25.711" x2="15.235" y2="25.68" width="0.762" layer="1"/>
 <wire x1="41.91" y1="15.24" x2="41.91" y2="17.0689" width="0.762" layer="1"/>
+<contactref element="R7" pad="2"/>
+<wire x1="17.145" y1="7.62" x2="15.9715" y2="6.4465" width="0.762" layer="1"/>
+<wire x1="15.9715" y1="6.4465" x2="15.7735" y2="6.4465" width="0.762" layer="1"/>
 </signal>
 <signal name="VCC" class="1">
 <contactref element="C4" pad="+"/>
@@ -3298,9 +3301,6 @@ Source: Data sheet </description>
 <wire x1="12.955" y1="33.579" x2="12.955" y2="32.86" width="0.762" layer="1"/>
 <wire x1="69.95" y1="35.915" x2="73.125" y2="32.74" width="0.762" layer="16"/>
 <wire x1="73.125" y1="32.74" x2="73.125" y2="30.675" width="0.762" layer="16"/>
-<contactref element="R7" pad="2"/>
-<wire x1="22.86" y1="2.667" x2="17.907" y2="7.62" width="0.762" layer="16"/>
-<wire x1="17.907" y1="7.62" x2="17.145" y2="7.62" width="0.762" layer="16"/>
 </signal>
 <signal name="A4" class="2">
 <contactref element="ARDUINO_NANO" pad="8"/>

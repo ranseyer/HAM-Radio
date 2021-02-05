@@ -25779,6 +25779,11 @@ Relais:
 <wire x1="92.71" y1="176.53" x2="92.71" y2="175.26" width="0.1524" layer="91"/>
 <label x="92.71" y="175.26" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="102.87" y1="153.67" x2="102.87" y2="156.21" width="0.1524" layer="91"/>
+<label x="102.87" y="153.67" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="VCC" class="1">
 <segment>
@@ -25871,11 +25876,6 @@ Relais:
 <wire x1="50.8" y1="101.6" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
 <label x="55.88" y="101.6" size="1.778" layer="95" xref="yes"/>
 <junction x="50.8" y="101.6"/>
-</segment>
-<segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="102.87" y1="153.67" x2="102.87" y2="156.21" width="0.1524" layer="91"/>
-<label x="102.87" y="153.67" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="A4" class="2">
